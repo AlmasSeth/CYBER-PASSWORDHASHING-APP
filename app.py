@@ -22,7 +22,7 @@ def signup():
             password = request.form['password']
             title = request.form['title']
 
-            connection =pymysql.connect(host='localhost',user='root',password='',database='cyberdb')
+            connection =pymysql.connect(host='localhost',user='root',password='',database='cyberDB')
 
             cursor = connection.cursor()
 
